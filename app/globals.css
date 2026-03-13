@@ -1,26 +1,77 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --gold: #C9A84C;
+  --gold-light: #E8C96A;
+  --gold-dark: #8B6914;
+  --dark: #0F0B04;
+  --dark-card: #1A1408;
+  --cream: #FDF8EE;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+html { scroll-behavior: smooth; }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--dark);
+  color: var(--cream);
+}
+
+.btn-primary {
+  background-color: var(--gold);
+  color: var(--dark);
+  font-weight: 700;
+  padding: 0.85rem 2rem;
+  border-radius: 4px;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: var(--gold-light);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 20px rgba(201,168,76,0.4);
+}
+
+.btn-outline {
+  border: 2px solid var(--gold);
+  color: var(--gold);
+  font-weight: 600;
+  padding: 0.85rem 2rem;
+  border-radius: 4px;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+.btn-outline:hover {
+  background-color: var(--gold);
+  color: var(--dark);
+}
+
+.section-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.02em;
+}
+.divider {
+  width: 60px;
+  height: 3px;
+  background: var(--gold);
+  margin: 1rem 0;
+}
+.card {
+  background: var(--dark-card);
+  border: 1px solid rgba(201,168,76,0.2);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .section-title { font-size: 1.75rem; }
 }

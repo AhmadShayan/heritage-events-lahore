@@ -1,0 +1,38 @@
+export const business = {
+  name: "Heritage Events Lahore",
+  tagline: "Where Every Occasion Becomes a Timeless Memory",
+  shortDesc:
+    "Lahore's premier marriage hall and event venue — newly renovated, classically designed, accommodating up to 350 guests with warmth and elegance.",
+  address: "Main Rajbah Road, Daroghawala, Lahore, 54000, Pakistan",
+  phone: "0322 6182626",
+  whatsapp: "923226182626",
+  rating: 4.4,
+  reviewCount: 206,
+  capacity: "300–350 Guests",
+  hours: "11:00 AM – 10:00 PM, Every Day",
+  googleMapsEmbed:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.23!2d74.3997283!3d31.5831611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b3ec12d7df9%3A0x8ac6add49d526dbd!2sHeritage%20Events%20Lahore!5e0!3m2!1sen!2s!4v1",
+  photos: [
+    "places/ChIJ-X0twT4bGTkRvW1SndStxoo/photos/ATCDNfWb_rODq3YQgM8eWDliBQEyprD0rfLBM1OnLIFqEERBiW74gLxuJCrqgjVMjpmfhB47cc5YuHi-vZg9lMhFTJN7u1D2q6qRQY-bE77uCUveYzIzVucQWgmBCOecwMGdVYJxU32rL18LQ9q2R0TZ_68aHsR_ItrcIP4YfEClv_Pb3v2s1Nh2Bx09sa093bLhILifk9CiPbF1xKDCY_ytgfsJFf8BUaQ-lbxPq9f2x3st4aFTkdNggqP5-hWHMdMeWIJYeGtwcgi6gxa5a6F6RmVgEo0uVVnyxcM-9W3G28gNaw",
+    "places/ChIJ-X0twT4bGTkRvW1SndStxoo/photos/ATCDNfW4FjPKR1LczgRVXl0Qr5ovY2_HxkAPJes74qsbyLr-9hZOnmYjhUvWHMIZGb8q_7SoXJW_97oUoXH81TqUJSp6PSqp3Mn9OAu4h_CCLEDXEPjnXuObEHB0mklAENH5AqUjsx1ZNrLKp769F_dYUOjvU_JHqetpFSiA-B_BWsMx9aSrhgncHbKusSrMtUMLeOPFUo_uKnUo8wBfHB7IDglScUoiRvG4fINg4MgEQL28des0V7yym88f8C6K4LXI_n045EwqF_2hsKQiDwqqCAyOGo7AKCHs51gseJzqVC6SEoJonSnSEt6apmfArcGuHBxlGdNwMOwXUxhkujzBGjzoPXEnJiPcAoSCiD7zqIcQlp_JhzAGKl_AOR9tRa6S8a9VpMf2NXnsAdWpbXg0jVhcvrvR2rXMrft0V0FqdMeqpd0",
+    "places/ChIJ-X0twT4bGTkRvW1SndStxoo/photos/ATCDNfXgozedLj_D2vrBVaw0TROEEQB2r9aAcaLFugBIXshTh8TFJCfoEmkLuGYQC6DOc_AmqxnK2Uq3g8P8MXMzOJnEZh24TyzvCil2Rynqpv9xXWt-3H35DaS14GUIap5dC0vDTnVREerqGuq3hJ2ejKOI-TubVwraECYvEL_cl8coYRbaUk4zp8AYOuJZ37UtvwCayY4zSP5s91eLDavR5kOlwjT3mB0HHJdgn6uYXdXWVX0l_T3yHwFhWPv__c_Cqw5r7_NfwgEGoohA2Pk3aC7zHRvMU-zAprAuIX9Ba-WbOk2kqwTIsd2fSWeccU5xp0O4cczMp0IH5RL5jJ3IZdpG22rRrYdnEWDxoP8xD9I2DXTZNXu2RQapC1sldkwQSFLQCEZCYbBrV_ApF-tDGa_Hjkqf1Lsuzn3qyQLaI44r34Q",
+    "places/ChIJ-X0twT4bGTkRvW1SndStxoo/photos/ATCDNfXKq8D71AWqhtZ6xnMLcaSY38cLcpRreKSGRlDYdJA0bvRUJZs_p0wS0stkv2QpVPEzGFnGPOKZqSmUaxACrGqQ38NgbXWuRG6bTA1GMWkuwxtc3FpxGDUuLhEZfonM41cwL2LTxbZGa6juJghN1oMAckACclpUU0golQZdl8ikjx2ribTPbwF8JDU7jT97G55edh17NxsI-PXVxAIo_PC9tSIA8s-uidlq7J5ePDzaGGpEndEu496QkiqeIImMcaCdVmhHwcsk_CipYv41VLdh49oyUJYABMzFLAQzdcQu-gMgAZWg3rwSl-sA-8bX1AXpzP8es0ImGeCjt3bfrRqFUKfvi91ZAgp_jm8u8Nn1hWOi3pkhFvOObVUZHxuBiakew4LBJZWEOBIjXcNS0QJnORc_KDGZy3yrfrfV6edRQQ",
+    "places/ChIJ-X0twT4bGTkRvW1SndStxoo/photos/ATCDNfWb0VRHrULW2TYRnzE2oxrCKO0f2FNxsqBhE7vijnq87b4UgwY5OyilE5Gp5sxckqkkL1Ckxt34LEDeFE20Wwr5h7BkXOAOSDTqD3hgRo67mCYhoDsch36WMD0R0k7Xqyq1sHg5VcMoFINXlMIe7r0LXAVRjYzsHCTo8NYdKqKOLZgf23yshedSr37D8Bk7eEAdR76vyBjA22p3t7fsWy7ibW7WenQTOKkDQ4RvrYq-Bz3CmUxtzXv7n8g8XoybFvnTzL9GUKURkayjqZev3PK4GBIWkvoylO5Pjms9JFeTEmdMMJ4fccEA0meloVoofmDB0qO9tF-hPoCgDHZxQwxIbRxI_AiliQ1AEUkDY5wvTWYcL3OJ5DcZXTZ22guoZgATf8968R5Kpxez6r48H5axElGlOTtzTZ_vFiEn5rO97g",
+    "places/ChIJ-X0twT4bGTkRvW1SndStxoo/photos/ATCDNfXG9IBdWhk7-Nl20qwcP5pxdCkHdLn5BtzOfTECc4_lqf0ff6NVBIZLdVDgnoPancX_ED2pV2REgXjyOe4KxFYbkTPyK93ukQPoIpdMQLZorUVJ6EzMlUmuXxXTWWHuTfRP5OxHNH_lQMYxrr25gRSJW80jlhMts61EFysvyN4lgEBip2VlpO6Vw3t_CtUqMQsi4T_W0sZcw_qUInRelodQdqK1foCP009Id7abBs9nKRpBhvTkDOQZ7mnzKbUxKr-cPwl4ruy7bhxUKq2CCm2FXTGW0p2dEAfQQ_hN-nUxvg",
+    "places/ChIJ-X0twT4bGTkRvW1SndStxoo/photos/ATCDNfVKyw7fV2yW4HI5ciF3chwdU7x6LNjixQzZ1sR_x7a7JW8nwwRquzXAhXkWXbqO8vYxYqSF68V0F0kUK8gzv8ekTMcZ9E86ZcT4W8N6JLnRju06FXpe28QzwBPm-E5czzJTdC6G69faL5iDblr_svAAbhbb7kCZSNt6ksa4M1pkV4Snd4f2BSziHu-jIVzsP6Q1djsMjTLPt5yX2i56qZwIGm30igoHTqCfPWXpoFvaQCU4a2_kTw4eABTq_CO7RDuTygqemJ1ELbPvQVW0vi6KFU9v3H7c3Q7gArU7wz9njM4KX8gjU_GJL_DxSx0CY_naNQkKNibrMjTtOmyyqSXVtamAoA3T-nwEphxQnHL1K-wWC6ZxPutH_dftTwOdeORtgWGJaMBHNZmIfRLz_wqpW-iY5MGGkx6ffTWhtfCJ2Fyz",
+    "places/ChIJ-X0twT4bGTkRvW1SndStxoo/photos/ATCDNfWYiHQyu21FLIk3Xmg4v0qEZvp5XGgm9ONCy7wyWCEVGeO2aStEGW7pwJoKTL9uqkf3VcqwEFxGWqsrTYw2a5ntMJzNA8rFNhZReKNoHllFIh-27NMzdyb5zosWe-GmVZxXTDh_Am8-MOs3XuJs5mUHImDuaDDfqsVv9nGIgaPWGEaY2pTg9_TpzGqKJcHVfpAtNVAFOHrDSns6YHpH0_p5tS4M14woTFaUKP2z6VNkFjOu3GMk8FRLCawthbz7LzhEKmoP4YdQ7juV47I6L5jgHVEYuDUZpGN8ZUW764C2hYlWaJoYnRCQp_Ugg8L-XJymHP3FvnAy4Jhg-KdnwQr8eWueQGkZoybhcGaOhopyJcg5EWxswfSjaEnbIHiSovSCfJYP5UoFnqwkUCfsgrDF5Vzku1heG9iExpptOYBo_Xpn",
+    "places/ChIJ-X0twT4bGTkRvW1SndStxoo/photos/ATCDNfUKfAgAhMYhdSTYlxyXL5nEp03oiTyuZEhVc5YLzsaCuy1ToSn6tjjoBQRXsO-D4KQlHu8EwZsQuBFYTqidLaErb8M9wYdDH6C9hEC7NN_Tocmacab4YRYz9avNKcC4qP-1j6vHdFNtFOFNEqg0ROkTcETeEKfkhtL7mRAyrxRiQ-xkYAImtev712gKlhc2GAnJLDeLK_Y9QYWbV2RsxiOdoU6qc5BLSTC4nN16YE8qge32EArJ-dKzjehnIIuW9cWgqI5qOT6lkHI-6kK9ToSe2i-Kn2ax5C4vaSKni9DXD_Cvx1OEKzLuFGcuUjlLdqv84ZCqOEU7VlSL5L6t-pcYGzq37I9dH3d3V_m0fqc1l0c_D4sQ9-JLoFaMd0jz5EPoV5PTWuiLgnA3O_scXtXo0ErY0-N3K76Opn7TqvnYKks",
+    "places/ChIJ-X0twT4bGTkRvW1SndStxoo/photos/ATCDNfUEokDpdRq3jREs0Nz9RB_l2U0OJkvWoCBOep1DKZpnRexXcvOH5QM1_NNSr-qU8Qeh1zZ5LKzDpmTpSxilhCZBS6qqqbX6AlmsKj6e0ZYRwr1C_oHs7igHWhMJQE7XhPj9XFWFpRIw2yt36z0fLCvxqumjknHVvZc0AJXFH6xGwCIuATeSXfeNxLDrX1-zchMaPC4r4kRl33Hw_J4rC8D45Uo5rKuD0ckqP8X9uZKnOoD2rns9ucWjlTFSxsNS7I3WscykSgK3MB63s0W5FtEreRGqdFotqHlZjJ7yk2f_rfsrPFtJZzlCXlugB767_h0HSU4NIHbIfCCZ4-hjafN8-Xnvr-G2AyORQlW-55w3X-KpMLe-CbGJlgW0sWoqZ7e4Iv7nwLc5Knvkm1u2h195ro8X1kG-zsckkFHtZn8s_WMl",
+  ],
+  reviews: [
+    { author: "Muhammad Maqsood", rating: 5, text: "Peaceful atmosphere and service is up to the mark." },
+    { author: "Usman Jatt", rating: 5, text: "Atmosphere, decor, seating — the hall is huge, everything classic and antique. A truly grand venue." },
+    { author: "FARHAN SAEED", rating: 5, text: "Newly renovated marriage marquee, suitable for 300–350 persons. Highly recommended!" },
+    { author: "Usama Amjad", rating: 5, text: "Best marriage hall in our area. Excellent service and beautiful setup." },
+    { author: "Welcome Afzal", rating: 5, text: "Beautiful venue — absolutely stunning." },
+  ],
+}
+
+export function photoUrl(name: string, width = 1200) {
+  return `/api/photo?name=${encodeURIComponent(name)}&w=${width}`
+}
