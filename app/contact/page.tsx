@@ -66,7 +66,7 @@ export default function Contact() {
               src={business.googleMapsEmbed}
               width="100%"
               height="450"
-              style={{ border: 0, borderRadius: "8px", border: "1px solid rgba(201,168,76,0.2)", filter: "invert(90%) hue-rotate(180deg)" }}
+              style={{ borderRadius: "8px", border: "1px solid rgba(201,168,76,0.2)", filter: "invert(90%) hue-rotate(180deg)" }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
